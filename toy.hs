@@ -13,6 +13,7 @@ getArg n = PR (\args -> args !! n)
 doubleIt :: Integer -> Prog Integer
 doubleIt n = PR (\args -> 2*n)
 
+-- monadic functions taking actions also
 sumToIt :: (Prog Integer) -> Integer -> Prog Integer
 sumToIt (PR act) n = PR (\args -> (act args) + n)
 
