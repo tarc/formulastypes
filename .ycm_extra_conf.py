@@ -17,6 +17,9 @@ flags = [
 
 # Without the two below, nothing works
 #'-isystem', '/usr/lib/llvm-3.4/include',
+#'-isystem', 'C:\\ProgramData\\LLVM\\lib\\clang\\3.6.0\\include'
+'-isystem', 'C:\\Program Files (x86)\\Microsoft Visual Studio 11.0\\VC\\include'
+#'-fms-extensions',
 #'-isystem', '/usr/lib/clang/3.4/include'
 ]
 
