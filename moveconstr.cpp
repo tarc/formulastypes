@@ -1,6 +1,6 @@
 #include <iostream>
 
-void overloaded( int const &arg ) { std::cout << "by lvalue\n"; }
+void overloaded( int const &arg ) { std::cout << "by lvalue\n"; (void) arg; }
 void overloaded( int && arg ) { std::cout << "by rvalue\n"; arg = 4; }
 
 template< typename t >
