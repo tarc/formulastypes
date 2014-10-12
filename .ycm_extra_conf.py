@@ -12,6 +12,7 @@ flags = [
 '-DNDEBUG',
 '-std=c++11',
 '-x', 'c++',
+'-isystem', 'C:\\MinGW\\lib\\gcc\\i686-w64-mingw32\\4.8.1\\include\\c++',
 #'-I', './src',
 #'-isystem', '/usr/include',         # Boost and OpenSSL are here
 #'-isystem', '/usr/local/include',   # CppCMS is here
