@@ -12,7 +12,12 @@ flags = [
 '-DNDEBUG',
 '-std=c++11',
 '-x', 'c++',
-'-isystem', 'C:\\MinGW\\lib\\gcc\\i686-w64-mingw32\\4.8.1\\include\\c++',
+'-isystem', 'C:\mingw\\bin\../lib/gcc/i686-w64-mingw32/4.8.1/include/c++',
+'-isystem', 'C:\mingw\\bin\../lib/gcc/i686-w64-mingw32/4.8.1/include/c++/i686-w64-mingw32',
+'-isystem', 'C:\mingw\\bin\../lib/gcc/i686-w64-mingw32/4.8.1/include/c++/backward',
+'-isystem', 'C:\mingw\\bin\../lib/gcc/i686-w64-mingw32/4.8.1/include',
+'-isystem', 'C:\mingw\\bin\../lib/gcc/i686-w64-mingw32/4.8.1/include-fixed',
+'-isystem', 'C:\mingw\\bin\../lib/gcc/i686-w64-mingw32/4.8.1/../../../../i686-w64-mingw32/include',
 #'-I', './src',
 #'-isystem', '/usr/include',         # Boost and OpenSSL are here
 #'-isystem', '/usr/local/include',   # CppCMS is here
